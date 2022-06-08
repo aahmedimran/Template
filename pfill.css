@@ -1,0 +1,584 @@
+                                 * {
+                                     margin: 0;
+                                     padding: 0;
+                                     box-sizing: border-box;
+                                 }
+                                 
+                                 .navbar {
+                                     background-color: rgb(243, 243, 243);
+                                     text-decoration: none;
+                                 }
+                                 
+                                 .icon {
+                                     width: 8%;
+                                     position: relative;
+                                     left: 4vh;
+                                     top: 3vh;
+                                 }
+                                 
+                                 .decoration:hover {
+                                     background-color: rgb(78, 23, 23);
+                                     color: white;
+                                     border-radius: 18px;
+                                     mask-size: contain;
+                                 }
+                                 
+                                 .decoration {
+                                     position: relative;
+                                     left: 100vh;
+                                     bottom: 4vh;
+                                     padding: 1%;
+                                 }
+                                 
+                                 .pic {
+                                     background-position: center;
+                                 }
+                                 
+                                 .par1 {
+                                     padding-top: 2rem;
+                                     font-family: "Pacifico", "cursive";
+                                     text-align: center;
+                                     font-size: 120%;
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .par2 {
+                                     font-family: "Alfa Slab One", "Tiro Telugu";
+                                     text-align: center;
+                                     font-size: 170%;
+                                 }
+                                 
+                                 .contaner {
+                                     display: flex;
+                                     flex-wrap: wrap;
+                                     color: rgb(235, 17, 17);
+                                     padding-right: 2px;
+                                     padding-top: 5vh;
+                                     justify-content: space-evenly;
+                                     text-align: center;
+                                 }
+                                 
+                                 .item {
+                                     border: 2px solid rgb(139, 139, 139);
+                                     box-sizing: border-box;
+                                     text-align: center;
+                                     padding: 20px 20px 20px 20px;
+                                     border-radius: 1vh;
+                                     box-shadow: 50px;
+                                 }
+                                 
+                                 .pet {
+                                     position: relative;
+                                     top: 1vh;
+                                     padding-top: 1vh;
+                                 }
+                                 
+                                 .food {
+                                     position: relative;
+                                     top: 1vh;
+                                     padding-top: 1vh;
+                                 }
+                                 
+                                 .collar {
+                                     position: relative;
+                                     top: 1vh;
+                                     padding-top: 1vh;
+                                 }
+                                 
+                                 .bowl {
+                                     position: relative;
+                                     top: 3vh;
+                                     padding-top: 1vh;
+                                 }
+                                 
+                                 .toys {
+                                     position: relative;
+                                     top: 3vh;
+                                 }
+                                 
+                                 .groming {
+                                     position: relative;
+                                     top: 2vh;
+                                 }
+                                 
+                                 .bed {
+                                     position: relative;
+                                     top: 3vh;
+                                     padding-top: 1vh;
+                                 }
+                                 /* ****************************************** */
+                                 
+                                 .navigate {
+                                     display: flex;
+                                     justify-content: center;
+                                     padding-top: 5vh;
+                                     text-align: center;
+                                 }
+                                 
+                                 .arrow {
+                                     padding: 1vh;
+                                     color: brown;
+                                 }
+                                 
+                                 .coluring {
+                                     color: rgb(255, 255, 255);
+                                 }
+                                 
+                                 .contaner1 {
+                                     width: auto;
+                                     display: flex;
+                                     flex-wrap: wrap;
+                                     text-align: center;
+                                     padding-top: 5vh;
+                                     justify-content: space-evenly;
+                                     width: 80%;
+                                 }
+                                 
+                                 .price-tag {
+                                     display: inline-flex;
+                                 }
+                                 
+                                 .image {
+                                     background-image: url(images/bg-img3.jpg);
+                                     width: 100%;
+                                     background-position: center;
+                                 }
+                                 
+                                 .popular-item {
+                                     border: 2px solid rgb(255, 255, 255);
+                                     background-color: white;
+                                     padding: 20px 20px 20px 20px;
+                                     border-radius: 1vh;
+                                     box-shadow: 50px;
+                                 }
+                                 
+                                 .dog-food {
+                                     font-family: "Anton", sans-serif;
+                                     font: 16px/2 cursive;
+                                     position: relative;
+                                     left: -19vh;
+                                     color: white;
+                                 }
+                                 
+                                 .dog-Breath-Drop {
+                                     /* font-family: "Anton", sans-serif; */
+                                     font: 16px/2 cursive;
+                                     position: relative;
+                                     right: 5vh;
+                                     color: white;
+                                 }
+                                 
+                                 .dog-T-shirt {
+                                     font-family: "Anton", sans-serif;
+                                     font: 16px/2 cursive;
+                                     position: relative;
+                                     left: 4vh;
+                                     color: white;
+                                 }
+                                 
+                                 .dog-Collar {
+                                     font-family: "Anton", sans-serif;
+                                     font: 16px/2 cursive;
+                                     position: relative;
+                                     left: 18vh;
+                                     color: white;
+                                 }
+                                 
+                                 .price-tag1 {
+                                     position: relative;
+                                     left: -6vh;
+                                 }
+                                 /* .price-tag2 {
+     position: relative;
+     left: -5vh;
+ }
+ 
+ .price-tag3 {
+     position: relative;
+     left: 4vh;
+ } */
+                                 
+                                 .price-tag4 {
+                                     position: relative;
+                                     left: 5vh;
+                                 }
+                                 
+                                 .price1 {
+                                     color: white;
+                                     position: relative;
+                                     right: 10vh;
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .price2 {
+                                     color: white;
+                                     /* position: relative;
+     left: -10vh; */
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .price3 {
+                                     color: white;
+                                     /* position: relative;
+     left: 12vh; */
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .price4 {
+                                     color: white;
+                                     position: relative;
+                                     left: 10vh;
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .arrow1 {
+                                     padding: 1vh;
+                                     color: white;
+                                 }
+                                 
+                                 .navigate1 {
+                                     display: flex;
+                                     justify-content: center;
+                                     padding-top: 5vh;
+                                     padding-bottom: 4vh;
+                                     text-align: center;
+                                 }
+                                 
+                                 .special-product {
+                                     display: inline-flex;
+                                     grid-column-gap: 4vw;
+                                     padding: 20px;
+                                 }
+                                 
+                                 .sale-product1 {
+                                     width: 65%;
+                                     flex-wrap: wrap;
+                                 }
+                                 
+                                 .sale-product2 {
+                                     width: 29%;
+                                     flex-wrap: wrap;
+                                 }
+                                 
+                                 .parsnal-sejetion {
+                                     display: flex;
+                                     flex-direction: row;
+                                     justify-content: space-evenly;
+                                     align-items: center;
+                                     width: 100%;
+                                     padding: 0vh 2vh 0vh 2vh;
+                                 }
+                                 
+                                 .circle {
+                                     border: 2px solid black;
+                                     border-radius: 50%;
+                                 }
+                                 
+                                 .circle1 {
+                                     background-image: url(images/bg-image2.jpg);
+                                     width: 300px;
+                                     height: 300px;
+                                     border-radius: 50%;
+                                     position: relative;
+                                     left: 2vh;
+                                     bottom: 1vh;
+                                     box-shadow: 0px 0px 3px 0px rgb(15, 14, 14);
+                                 }
+                                 
+                                 .tex {
+                                     color: brown;
+                                     font-family: "Anton", sans-serif;
+                                     font-size: x-large;
+                                     position: relative;
+                                     top: 6vh;
+                                     left: 13vh
+                                 }
+                                 
+                                 .image1 {
+                                     margin: 68px;
+                                     padding-left: 2vh;
+                                 }
+                                 
+                                 .image2 {
+                                     margin: 68px;
+                                     padding-top: 20px;
+                                 }
+                                 
+                                 .image-adj {
+                                     padding-top: 30px;
+                                     padding-bottom: 50px;
+                                 }
+                                 
+                                 .par-design1 {
+                                     padding-top: 2rem;
+                                     font-family: "Pacifico", "cursive";
+                                     text-align: center;
+                                     font-size: 120%;
+                                     font-weight: bold;
+                                 }
+                                 
+                                 .par-design2 {
+                                     padding-bottom: 2rem;
+                                     font-family: "Times New Roman", Times, serif;
+                                     text-align: center;
+                                     font-size: 200%;
+                                     font-weight: 300;
+                                 }
+                                 
+                                 .image3 {
+                                     background: url(images/bg-image2.jpg);
+                                 }
+                                 
+                                 .brands-row1 {
+                                     display: flex;
+                                     grid-column-gap: 5vw;
+                                     justify-content: center;
+                                     image-rendering: auto;
+                                     padding-bottom: 50px;
+                                 }
+                                 
+                                 .brands-row2 {
+                                     justify-content: center;
+                                     display: flex;
+                                     grid-column-gap: 5vw;
+                                     image-rendering: auto;
+                                     padding-bottom: 37px;
+                                 }
+                                 
+                                 .Blog-para {
+                                     text-align: center;
+                                 }
+                                 
+                                 .paraa1 {
+                                     font-family: "Pacifico", "cursive";
+                                     font-weight: 100;
+                                     font-size: large;
+                                 }
+                                 
+                                 .paraa2 {
+                                     font-family: "Kdam Thmor Pro", sans-serif;
+                                     font-weight: bolder;
+                                     font-size: large;
+                                 }
+                                 
+                                 .contaner3 {
+                                     display: flex;
+                                     flex-wrap: wrap;
+                                     justify-content: center;
+                                     padding-left: 10%;
+                                 }
+                                 
+                                 .contaner3>div {
+                                     flex-basis: 33%;
+                                 }
+                                 
+                                 a {
+                                     text-decoration: none;
+                                 }
+                                 
+                                 .blog {
+                                     padding: 20px;
+                                 }
+                                 
+                                 * .contaner4 {
+                                     display: flex;
+                                     justify-content: center;
+                                 }
+                                 
+                                 .contaner5 {
+                                     display: flex;
+                                     flex-direction: row;
+                                     padding-top: 20vh;
+                                     justify-content: center;
+                                     grid-column-gap: 4vw;
+                                     width: 100%;
+                                 }
+                                 
+                                 .border {
+                                     border: 2px solid brown;
+                                     border-radius: 20px;
+                                     box-sizing: content-box;
+                                     padding: 5vh;
+                                 }
+                                 
+                                 .return {
+                                     color: brown;
+                                 }
+                                 
+                                 .siz {
+                                     font-family: "Bebas Neue", cursive;
+                                     font-size: large;
+                                     font-weight: bolder;
+                                 }
+                                 
+                                 .siz1 {
+                                     color: black;
+                                     font-size: large;
+                                 }
+                                 
+                                 .line {
+                                     padding-top: 5vh;
+                                     color: black;
+                                 }
+                                 
+                                 .contaner6 {
+                                     padding-left: 13vh;
+                                     display: flex;
+                                     flex-wrap: wrap;
+                                 }
+                                 
+                                 .contaner7 {
+                                     padding-top: 8vh;
+                                     font-family: 'Roboto', sans-serif;
+                                 }
+                                 
+                                 .intro {
+                                     padding: 5vh 0 5vh 0;
+                                 }
+                                 
+                                 .contanier8 {
+                                     padding-left: 15vh;
+                                     flex-wrap: wrap;
+                                 }
+                                 
+                                 .contanier9 {
+                                     padding-right: 7vh;
+                                 }
+                                 
+                                 .icon-adj {
+                                     display: inline-block;
+                                     padding-left: 15vh;
+                                     position: relative;
+                                     top: 6vh;
+                                 }
+                                 
+                                 .usefull-link {
+                                     padding-right: 3vh;
+                                 }
+                                 
+                                 div input {
+                                     width: 100%;
+                                     height: 100%;
+                                     box-sizing: border-box;
+                                     padding: 2vh;
+                                     background-color: rgb(109, 96, 96);
+                                     background-image: url(images/send2.png);
+                                     background-repeat: no-repeat;
+                                     background-position-x: right;
+                                     background-position-y: center;
+                                     border-radius: 20px;
+                                 }
+                                 
+                                 .Contact {
+                                     padding-right: 10vh;
+                                 }
+                                 
+                                 .legal1 {
+                                     padding-bottom: 1vh;
+                                     font-family: 'Roboto', sans-serif;
+                                     font-weight: 800;
+                                     color: rgb(112, 8, 8);
+                                 }
+                                 
+                                 .legal2 {
+                                     padding-top: 2vh;
+                                     font-family: 'Poppins', sans-serif;
+                                 }
+                                 
+                                 .copyright {
+                                     font-family: 'Poppins', Geneva, Tahoma, sans-serif;
+                                     text-align: center;
+                                 }
+                                 /* 1media Qurie (max768px) */
+                                 
+                                 @media screen and (max-width:768px) {
+                                     .contaner>div {
+                                         margin-top: 20px
+                                     }
+                                     .contaner1>div {
+                                         margin-top: 20px
+                                     }
+                                     .navbar a {
+                                         position: initial;
+                                         left: 2vh;
+                                         display: grid;
+                                         width: 30%;
+                                         justify-content: center;
+                                     }
+                                     .tex {
+                                         margin-left: 30px;
+                                     }
+                                     .parsnal-sejetion {
+                                         flex-direction: column;
+                                     }
+                                     .parsnal-sejetion :nth-child(2) {
+                                         margin-top: 20px;
+                                     }
+                                     .contaner3>div {
+                                         flex-basis: 100%;
+                                     }
+                                     .contaner5 {
+                                         flex-direction: column;
+                                     }
+                                     .contaner5>div {
+                                         width: 50%;
+                                         margin-top: 20px;
+                                         flex-basis: 48%;
+                                     }
+                                 }
+                                 
+                                 ;
+                                 /* 2media Qurie (max752px) */
+                                 
+                                 @media screen and (max-width:752px) {
+                                     .contaner1>div {
+                                         flex-basis: 48%;
+                                     }
+                                     .price-tag>img {
+                                         flex-basis: 48%;
+                                         padding-left: 5px;
+                                     }
+                                     .popular-item {
+                                         flex-basis: 48%;
+                                         margin-top: 40px;
+                                     }
+                                     .contaner>div {
+                                         margin-top: 20px;
+                                     }
+                                     .tex {
+                                         margin-left: 30px;
+                                     }
+                                 }
+                                 
+                                 ;
+                                 /* 3media Qurie (max418px) */
+                                 
+                                 @media screen and (max-width:418px) {
+                                     .navbar a {
+                                         display: grid;
+                                     }
+                                     .contaner3>div {
+                                         flex-basis: 100%;
+                                     }
+                                     .contaner1 {
+                                         flex-direction: column;
+                                     }
+                                     .price-tag>img {
+                                         flex-basis: 100%;
+                                         padding-left: 5px;
+                                     }
+                                     .contaner>div {
+                                         margin-top: 20px
+                                     }
+                                     .tex {
+                                         margin-left: 30px;
+                                     }
+                                     .contaner5 {
+                                         flex-direction: column;
+                                     }
+                                     .contaner5>div {
+                                         flex-basis: 50%;
+                                     }
+                                 }
+                                 
+                                 ;
