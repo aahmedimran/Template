@@ -496,14 +496,16 @@
                                          margin-top: 20px
                                      }
                                      .contaner1>div {
-                                         margin-top: 20px
+                                         margin-top: 20px;
+                                         margin-left: 10px;
                                      }
                                      .navbar a {
                                          position: initial;
                                          left: 2vh;
                                          display: grid;
                                          width: 30%;
-                                         justify-content: center;
+                                         margin-left: 30px;
+                                         /* align-items: center; */
                                      }
                                      .tex {
                                          margin-left: 30px;
@@ -517,12 +519,15 @@
                                      .contaner3>div {
                                          flex-basis: 100%;
                                      }
-                                     .contaner5 {
+                                     .contaner5,
+                                     .contaner3 {
                                          flex-direction: column;
+                                         justify-content: center;
+                                         align-items: center;
                                      }
                                      .contaner5>div {
                                          width: 50%;
-                                         margin-top: 20px;
+                                         margin-top: 30px;
                                          flex-basis: 48%;
                                      }
                                  }
@@ -551,8 +556,6 @@
                                  }
                                  
                                  ;
-                                 /* 3media Qurie (max418px) */
-                                 
                                  @media screen and (max-width:418px) {
                                      .navbar a {
                                          display: grid;
@@ -565,20 +568,39 @@
                                      }
                                      .price-tag>img {
                                          flex-basis: 100%;
-                                         padding-left: 5px;
+                                         /* padding-left: 5px; */
+                                         width: 50%;
                                      }
                                      .contaner>div {
-                                         margin-top: 20px
+                                         margin-top: 20px;
                                      }
                                      .tex {
                                          margin-left: 30px;
                                      }
                                      .contaner5 {
                                          flex-direction: column;
+                                         flex-basis: 100%;
                                      }
-                                     .contaner5>div {
-                                         flex-basis: 50%;
+                                     /* .contanier8>div {
+                                         margin-right: 80px;
+                                     } */
+                                     .contaner6>div {
+                                         flex-basis: 100%;
                                      }
+                                     /* .footer {
+                                         text-align: center;
+                                     } */
+                                     /* .contanier8,
+                                     .contanier9 {
+                                         width: 100%;
+                                     } */
+                                     /* .contanier9,
+                                     .contanier10 {
+                                         
+                                         align-items: center;
+                                         flex-basis: 100%;
+                                         
+                                     } */
                                  }
                                  
                                  ;
