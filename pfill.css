@@ -28,11 +28,10 @@
              flex-basis: auto;
              display: flex;
              flex-wrap: wrap;
-             /* justify-content: center;
+             justify-content: center;
              align-items: center;
              text-align: center;
-             flex-direction: row; */
-             margin-left: 20rem;
+             flex-direction: row;
              /* padding: 20px; */
          }
          
@@ -553,6 +552,19 @@
          
          ;
          @media screen and (max-width:350px) {
+             .navbar {
+                 background-color: red;
+                 display: flex;
+                 flex-direction: column;
+                 flex-basis: 100%;
+                 justify-content: center;
+                 align-items: center;
+                 text-align: center;
+             }
+         }
+         
+         ;
+         @media screen and (max-width:290px) {
              .navbar {
                  flex-direction: column;
                  flex-basis: 100%;
